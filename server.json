@@ -1,0 +1,11 @@
+{
+    "app":{
+        "cfengine":"boxlang"
+    },
+    "JVM":{
+        "javaVersion":"openjdk21_jdk_x64"
+    },
+    "web":{
+        "welcomeFiles":"index.bxm"
+    }
+}
