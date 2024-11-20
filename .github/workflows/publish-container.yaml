@@ -11,8 +11,8 @@ jobs:
       - name: Build and push the image
         run: |
           docker login --username ZacWarner --password ${{secrets.GH_PAT}} ghcr.io
-          docker build . --tag ghcr.io/zacwarner/boxlang-app-ghcr:latest
-          docker push ghcr.io/zacwarner/boxlang-app-ghcr:latest
+          docker build . --tag ghcr.io/ZacWarner/boxlang-app-ghcr:latest
+          docker push ghcr.io/ZacWarner/boxlang-app-ghcr:latest
       - name: Render.com Redeploy Webhook
         uses: fjogeleit/http-request-action@v1
         with:
