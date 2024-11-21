@@ -3,9 +3,12 @@
         "cfengine":"boxlang"
     },
     "JVM":{
-        "javaVersion":"openjdk21_jdk_x64"
+        "javaVersion":"openjdk21_jdk"
     },
     "web":{
         "welcomeFiles":"index.bxm"
+    },
+    "scripts":{
+        "onServerInitialInstall":"install bx-postgresql"
     }
 }
